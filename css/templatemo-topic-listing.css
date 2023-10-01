@@ -11,15 +11,15 @@ https://templatemo.com/tm-590-topic-listing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
+  --primary-color:                #436C09;
+  --secondary-color:              #75BD10;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
+  --custom-btn-bg-color:          #75BD10;
+  --custom-btn-bg-hover-color:    #436C09;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --border-color:                 #75BD10;
+  --link-hover-color:             #436C09;
 
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
@@ -126,7 +126,7 @@ a {
 
 a:hover {
   color: var(--link-hover-color);
-}
+}f
 
 b,
 strong {
@@ -147,7 +147,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #1c2f02 0%, #c3fa76 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -248,7 +248,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #1c2f02 0%, #c3fa76 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -284,7 +284,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--secondary-color);
+  background-color: var(--white-color);
 }
 
 .navbar {
@@ -486,7 +486,8 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  /* background-image: linear-gradient(15deg, #1c2f02 0%, #c3fa76 100%); */
+  background-image: white;
   position: relative;
   overflow: hidden;
   padding-top: 150px;
@@ -658,7 +659,7 @@ blockquote {
   background-color: var(--section-bg-color);
   border-radius: var(--border-radius-small);
   font-family: var(--title-font-family);
-  font-size: var(--h4-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-weight-bold);
   display: inline-block;
   text-align: center;
@@ -1152,4 +1153,21 @@ blockquote {
     font-size: 20px;
   }
 }
-
+.one::before{
+  content: "\f073  ";
+  color: grey ;
+  font-family: "Font Awesome\ 5 free";
+}
+.two::before{
+  content: "\f0eb  ";
+  color: grey ;
+  font-family: "Font Awesome\ 5 free";
+}
+.box{
+  border-radius: 10px ;
+}
+.three::after{
+  content: "\f18c ";
+  color:#75BD10 ;
+  font-family: "Font Awesome\ 5 Brands";
+}

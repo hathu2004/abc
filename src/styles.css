@@ -5,13 +5,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     /* background: lightseagreen; */
-    background: #80d0c7;
+     /* background: #436C09; */
+     background:white;
  }
 .background {
-    width: 430px;
+    width: 70%;
     height: 520px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -23,13 +23,13 @@ body {
     height: 200px;
     width: 200px;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 50%
 }
 
 .shape:first-child {
     background: linear-gradient(
-            #1845ad,
-            #23a2f6
+        #436C09,
+        #75BD10
     );
     left: -80px;
     top: -80px;
@@ -48,16 +48,37 @@ body {
 form {
     height: 520px;
     width: 400px;
-    background-color: rgba(255, 255, 255, 0.13);
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    background: linear-gradient(
+        #436C09,
+        #75BD10
+    );
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
+    /* left: 50%; */
+    left: 30%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
+}
+.anh {
+    height: 520px;
+    width: 520px;
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    background:white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    /* left: 50%; */
+    right: 3%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    /* padding: 50px 35px; */
 }
 
 form * {
